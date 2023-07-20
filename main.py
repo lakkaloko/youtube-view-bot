@@ -1,10 +1,8 @@
 # Bot para aumentar visualizações no YouTube
 
+from selenium import webdriver
+
 def iniciar_driver():
-  # código para inicializar o driver aqui
-  pass
+  driver = webdriver.Firefox()
+  return driver
 
-def main():
-  iniciar_driver()
-
-main()
