@@ -16,13 +16,17 @@ def iniciar_driver():
 def verificar_url(url):
 
   if not url.startswith("https://www.youtube.com"):
-    
     print("URL inválida!")
     
   else:
-    
     print("URL válida.")
 
+
+def assistir_video()
+  for i in range(10):
+   # assiste video
+   driver.refresh()
+   
 
 def main():
 
